@@ -331,7 +331,7 @@ ul{
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 10px;
     width: 300px;
 }

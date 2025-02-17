@@ -8,7 +8,6 @@ AddTodoBtn.addEventListener("click", function(){
     const todo = document.createElement("li")
     todo.innerHTML = `${inputValue} <button class="delete-btn">X</button>`
     ul.appendChild(todo)
-    ul.insertBefore(todo, ul.firstChild);
     input.value = "";
 })
 
