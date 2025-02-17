@@ -343,7 +343,7 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
+    width: 420px;
 }
 
 .delete-btn{
@@ -351,4 +351,20 @@ ul li{
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
+}
+
+#All-Del{
+    width: 430px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #770b2b;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#All-Del:hover{
+    background-color: #770b2bcb;
 }
